@@ -142,23 +142,23 @@ if page == "🏠 Home":
     """, unsafe_allow_html=True)
 
 elif page == "📝 File Case":
-    from pages.page_01_file_case import render
+    from views.page_01_file_case import render
     render()
 elif page == "📊 DLS Engine":
-    from pages.page_02_dls_engine import render
+    from views.page_02_dls_engine import render
     render()
 elif page == "🤝 Negotiation Sandbox":
-    from pages.page_03_negotiation import render
+    from views.page_03_negotiation import render
     render()
 elif page == "💭 Emotion Monitor":
-    from pages.page_04_emotion_monitor import render
+    from views.page_04_emotion_monitor import render
     render()
 elif page == "🔍 Auto Filter":
-    from pages.page_05_auto_filter import render
+    from views.page_05_auto_filter import render
     render()
 elif page == "👨‍⚖️ Judge Cockpit":
-    from pages.page_06_judge_cockpit import render
+    from views.page_06_judge_cockpit import render
     render()
 elif page == "🕸️ Conflict Graph":
-    from pages.page_07_conflict_graph import render
+    from views.page_07_conflict_graph import render
     render()
